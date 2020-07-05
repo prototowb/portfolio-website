@@ -1,17 +1,8 @@
-/**
- * index.css
- * -The code is
- * documentation
- * enough
- */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
-/* Custom Properties, update for your own design */
 
 ::selection {
   background-color: var(--clr-accent);
