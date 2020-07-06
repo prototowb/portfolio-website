@@ -81,7 +81,7 @@ let toggle = () =>
 
 
 
-if(CodePen.isThumbnail) toggle();
+
 
 toNightAnimation.reverse();
 toNightAnimation.pause();
