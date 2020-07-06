@@ -17,7 +17,7 @@
   --fw-bold: 900;
   
   --clr-light: #f6f6f6;
-  --clr-dark: #303030;
+  --clr-dark: #242424;
   --clr-accent: #1e294b;
   
   --fs-h1: 3rem;
@@ -381,7 +381,7 @@ svg
 
 .my-services {
   background-color: var(--clr-dark);
-  background: linear-gradient(rgba(30,41,75,0.5), rgba(30,41,75,0.5)) , url(https://tobiasrauer.de/images/services-bg.jpg) top center;
+  background: linear-gradient(rgba(30,41,75,0.5), rgba(30,41,75,0.5)) , url(https://tobiasrauer.de/images/services-bg.jpg) center center;
   background-size: cover;
   /* background-blend-mode: multiply; */
   color: var(--clr-light);
