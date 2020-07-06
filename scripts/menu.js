@@ -58,7 +58,7 @@ toNightAnimation
 	x: 2,
 }, duration)
 .to('#day-content', {duration: duration * 0.5, opacity: 0.5}, duration * 1.5)
-.to('body', {backgroundColor: '#1a1b29', color: '#f6f6f6', duration: duration * 2}, 0)
+.to('body', {backgroundColor: '#13101c', color: '#f6f6f6', duration: duration * 2}, 0)
 
 let stars = Array.from(document.getElementsByClassName('star'));
 stars.map(star => gsap.to(star, {duration: 'random(0.4, 1.5)', repeat: -1, yoyo: true, opacity: 'random(0.2, 0.5)'}))
