@@ -3,10 +3,12 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link')
 
+//awaits click on hamburger menu toggle
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
 });
 
+//remove 'nav-open' class from element
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
     document.body.classList.remove('nav-open');
@@ -16,11 +18,10 @@ navLinks.forEach(link => {
 
  /* theme-toggle */
 
- console.clear();
+console.clear();
 
 let duration = 0.4;
 let isDay = true;
-
 
 let back = document.getElementById('back');
 let front = document.getElementById('front');
@@ -71,6 +72,7 @@ stars.map(star => gsap.to(star, {duration: 'random(0.4, 1.5)', repeat: -1, yoyo:
 gsap.to('.clouds-big', {duration: 15, repeat: -1, x: -74, ease: 'linear'})
 gsap.to('.clouds-medium', {duration: 20, repeat: -1, x: -65, ease: 'linear'})
 gsap.to('.clouds-small', {duration: 25, repeat: -1, x: -71, ease: 'linear'})
+
 
 let switchToggle = document.getElementById('input');
 switchToggle.addEventListener('change', () => toggle())
