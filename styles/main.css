@@ -19,6 +19,8 @@
   --clr-light: #f6f6f6;
   --clr-dark: #242424;
   --clr-accent: #1e294b;
+
+  --clr-ham-toggl: #1e294b;
   
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -49,7 +51,7 @@ body {
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
-  fint-size: var(--fs-body);
+  font-size: var(--fs-body);
   line-height: 1.6;
 }
 
@@ -241,15 +243,7 @@ header {
   position: relative;
 }
 
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-  background: var(--clr-accent);
-  width: 2em;
-  height: 3px;
-  border-radius: 1em;
-  transition: transform 250ms ease-in-out;
-}
+
 
 .hamburger::before,
 .hamburger::after {
@@ -259,8 +253,20 @@ header {
   right: 0;
 }
 
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background-color: var(--clr-ham-toggl);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
+
+
 
 
 /* theme-toggle */
