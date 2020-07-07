@@ -60,7 +60,7 @@ toNightAnimation
 }, duration)
 .to('#day-content', {duration: duration * 0.5, opacity: 0.5}, duration * 1.5)
 .to('body', {backgroundColor: '#13101c', color: '#f6f6f6', duration: duration * 2}, 0)
-.to(".nav-toggle", {"--clr-ham-toggl": "#f6f6f6"})
+.to('.nav-toggle', {"--clr-ham-toggl": "#f6f6f6"}, duration * 0.5)
 
 
 
