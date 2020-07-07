@@ -206,8 +206,8 @@ header {
   border: 0;
   cursor: pointer;
   position: absolute;
-  right: 1em;
-  top: 1em;
+  right: 2em;
+  top: 1.5em;
   z-index: 1000;
   padding: .9em 0;
 }
