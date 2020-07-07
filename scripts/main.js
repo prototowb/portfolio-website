@@ -75,6 +75,10 @@ gsap.to('.clouds-small', {duration: 25, repeat: -1, x: -71, ease: 'linear'})
 let switchToggle = document.getElementById('input');
 switchToggle.addEventListener('change', () => toggle())
 
+//let the "checked" state be 'isDay'.
+//When the dark-theme switch is set to 'isDay',
+//play the 'toNightAnimation' in reverse.
+//If unchecked, play the 'toNightAnimation'.
 let toggle = () => 
 {
 	isDay = switchToggle.checked == true;
