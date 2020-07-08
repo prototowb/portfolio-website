@@ -91,6 +91,11 @@ strong { font-weight: var(--fw-bold) }
   transform: scale(1.1);
 }
 
+.white-border {
+  border: 3px solid var(--clr-light);
+  padding: 2px 5px;
+}
+
 #services > a {
   color: var(--clr-light);
 }

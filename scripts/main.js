@@ -91,3 +91,16 @@ let toggle = () =>
 
 toNightAnimation.reverse();
 toNightAnimation.pause();
+
+
+/* border-highlight add */
+function addWborder() {
+   let element = document.getElementById("kontakt");
+   element.classList.add("white-border");
+}
+
+// On mouse-over, execute myFunction
+function removeBorder() {
+  let element = document.getElementById("kontakt") // Click on the checkbox
+  element.classList.remove("white-border");
+}
