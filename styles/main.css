@@ -544,6 +544,7 @@ svg
 
 .footer__link:hover {
   text-decoration: underline;
+  color: white;
 }
 
 .social-list {
@@ -552,6 +553,10 @@ svg
   justify-content: center;
   margin: 2em 0;
   padding: 0;
+}
+
+.social-list__item:hover {
+  color: white;
 }
 
 .social-list__items {
